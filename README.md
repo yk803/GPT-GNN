@@ -9,6 +9,16 @@
 
 GPT-GNN is a pre-training framework to initialize GNNs by generative pre-training. It can be applied to large-scale and heterogensous graphs.
 
+# Updates (Mar 2024)
+
+To make sure the code is runnable, please directly run 
+```
+bash env_setup.sh
+``` 
+before you try the Python files as instructed below.
+
+This code is runnable on NYU HPC, but is not guaranteed to run on other sources (e.g. Google Colab).
+
 You can see our KDD 2020 paper [“**Generative Pre-Training of Graph Neural Networks**”](https://arxiv.org/abs/2006.15437) for more details.
 
 
