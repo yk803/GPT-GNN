@@ -13,12 +13,12 @@ parser = argparse.ArgumentParser(description='Fine-Tuning on Reddit classificati
 '''
     Dataset arguments
 '''
-parser.add_argument('--data_dir', type=str, default='/datadrive/dataset',
+parser.add_argument('--data_dir', type=str, default='datadrive/dataset',
                     help='The address of preprocessed graph.')
 parser.add_argument('--use_pretrain', help='Whether to use pre-trained model', action='store_true')
-parser.add_argument('--pretrain_model_dir', type=str, default='/datadrive/models/gpt_all_cs',
+parser.add_argument('--pretrain_model_dir', type=str, default='datadrive/models/gpt_all_cs',
                     help='The address for pretrained model.')
-parser.add_argument('--model_dir', type=str, default='/datadrive/models/gpt_all_reddit',
+parser.add_argument('--model_dir', type=str, default='datadrive/models/gpt_all_reddit',
                     help='The address for storing the models and optimization results.')
 parser.add_argument('--task_name', type=str, default='reddit',
                     help='The name of the stored models and optimization results.')
